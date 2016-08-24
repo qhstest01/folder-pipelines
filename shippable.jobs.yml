@@ -1,0 +1,7 @@
+jobs:
+  - name: gh-man-folder
+    type: manifest
+    steps:
+      - IN: gh-image-folder
+        pull: false
+      - IN: gh-opts-folder
