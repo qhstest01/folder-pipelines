@@ -1,5 +1,5 @@
 jobs:
-  - name: gh-man-folder
+  - name: gh-man-folder1
     type: manifest
     steps:
       - IN: gh-image-folder
